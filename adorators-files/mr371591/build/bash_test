@@ -1,0 +1,4 @@
+make
+./adorate 4 ../graf 2 > out1
+./adorate_dziala 4 ../graf 2 > out2
+diff out1 out2

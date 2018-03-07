@@ -1,0 +1,139 @@
+*********** Wczytywanie pliku ***********
+Czy jest otwarty  : 1
+Linia 0 : 4 14 1
+krawedz (4, 14) waga = 1
+Linia 1 : 4 1 1
+krawedz (4, 1) waga = 1
+Linia 2 : 9 14 5
+krawedz (9, 14) waga = 5
+*********** Koniec wczytywania pliku ***********
+
+Wczytałem plik
+Zostało 4 wierzcholkow do przerobienia
+----------------------------- Przeprowadzam test dla b_method = 2 -----------------------------
+GŁÓWNY WĄTEK : Będę odpalał 4 watkow 
+GŁÓWNY WĄTEK : zadania rozpoczynają działanie ##########################
+Wątek 4 startuje 
+Wątek 4 : biore wierzcholek 1
+Wątek 4 : usunąłem
+Uwaga, zaraz będzie while ale teraz bvalue(b_method, v1)-db[v1]=5
+... bo bvalue = 5 i db[v1] = 0
+Zrobiłem lock
+Wątek 4 : dopuki i=1 + db[v1] = 0 <= bvalue(b_method, v1)=5
+W pętli while , who_i_dont_adorate.at(v1).size() = 1
+--- Jestem w argmax(1)
+------ S(4).last = (0, 0)
+--- Wybrałem : 4
+Wątek Wątek 4 : best = (1, 4)
+--- Jestem w argmax(1)
+------ S(4).last = (0, 0)
+--- Wybrałem : 4
+Wątek 34 : zaraz 1 będzie suitor'em of 4
+Jestem w make_suitor (method = 2, v1 = 1, v2 = 4)
+ startuje Nikogo nie usuwam
+Wątek 4 : skończyłem make_suitor i anulowałem : (0, 0)
+Wątek 4 : biore wierzcholek 4
+Wątek 4 : usunąłem
+
+Uwaga, zaraz będzie while ale teraz bvalue(b_method, v1)-db[v1]=1
+... bo bvalue = 1 i db[v1] = 0
+Zrobiłem lock
+Wątek 4 : dopuki i=1 + db[v1] = 0 <= bvalue(b_method, v1)=1
+W pętli while , who_i_dont_adorate.at(v1).size() = 2
+--- Jestem w argmax(4)
+------ S(14).last = (0, 0)
+--- Wybrałem : 14
+Wątek 4 : best = (1, 14)
+--- Jestem w argmax(4)
+------ S(14).last = (0, 0)
+--- Wybrałem : 14
+Wątek 4 : zaraz 4 będzie suitor'em of 14
+Jestem w make_suitor (method = 2, v1 = 4, v2 = 14)
+Nikogo nie usuwam
+Wątek 4 : skończyłem make_suitor i anulowałem : (0, 0)
+Wątek 4 : biore wierzcholek 9
+Wątek 4 : usunąłem
+Uwaga, zaraz będzie while ale teraz bvalue(b_method, v1)-db[v1]=1
+... bo bvalue = 1 i db[v1] = 0
+Zrobiłem lock
+Wątek 4 : dopuki i=1 + db[v1] = 0 <= bvalue(b_method, v1)=1
+W pętli while , who_i_dont_adorate.at(v1).size() = 1
+--- Jestem w argmax(9)
+------ S(14).last = (1, 4)
+--- Wybrałem : 14
+Wątek 4 : best = (1, 14)
+--- Jestem w argmax(9)
+------ S(14).last = (1, 4)
+--- Wybrałem : 14
+Wątek 4 : zaraz 9 będzie suitor'em of 14
+Jestem w make_suitor (method = 2Wątek , v1 = 9, v2 = 14)3
+ : biore wierzcholek Wątek 2 startuje 
+14
+Wątek 3 : usunąłem
+Uwaga, zaraz będzie while ale teraz bvalue(b_method, v1)-db[v1]=1
+... bo bvalue = 1 i db[v1] = 0
+Zrobiłem lock
+Wątek 3 : dopuki i=1 + db[v1] = 0 <= bvalue(b_method, v1)=1
+W pętli while , who_i_dont_adorate.at(v1).size() = 2
+Wątek --- Jestem w argmax(214 : nie ma wierzchołków do wzięcia
+Wątek 2 : skonczylem, czekam na 1
+Kogos usuwam
+)
+------ S(9).last = (Wątek 0, 0)
+--- Wybrałem : 9
+Wątek 3 : best = (1, 9)
+--- Jestem w argmax(14)
+------ S(9).last = (0, 0)
+--- Wybrałem : 9
+Wątek 3 : zaraz 14 będzie suitor'em of 9
+Udało się usunąc Jestem w make_suitor (method = 2, v1 = 14, v2 = 
+9)
+1 startuje 
+Wątek 1 : nie ma wierzchołków do wzięcia
+Wątek 1 : skonczylem
+Wątek 1 kończy 
+Wątek 4 : skończyłem make_suitor i anulowałem : (1, 4)
+Wątek 4 : nie ma wierzchołków do wzięciaNikogo nie usuwam
+Wątek 4 : skonczylem, czekam na 3
+
+Wątek 3 : skończyłem make_suitor i anulowałem : (0, 0)
+Wątek Wątek 23 : nie ma wierzchołków do wzięcia kończy 
+
+Wątek 3 : skonczylem, czekam na 2
+Wątek 3 kończy 
+Wątek 4 kończy 
+GŁÓWNY WĄTEK : zadania kończą działanie       ##########################
+Następnym razem trzeba będzie przerobić 1 wierzchołków
+GŁÓWNY WĄTEK : zadania rozpoczynają działanie ##########################
+Wątek 4 startuje 
+Wątek 4 : biore wierzcholek 4
+Wątek 4 : usunąłem
+Uwaga, zaraz będzie while ale teraz bvalue(b_method, v1)-db[v1]=0
+... bo bvalue = 1 i db[v1] = 1
+Zrobiłem lock
+Wątek 4 : nie ma wierzchołków do wzięcia
+Wątek 4 : skonczylem, czekam na 3
+Wątek 3 startuje 
+Wątek 3 : nie ma wierzchołków do wzięcia
+Wątek Wątek 23 startuje  : skonczylem, czekam na 
+2
+Wątek 2 : nie ma wierzchołków do wzięcia
+Wątek 2 : skonczylem, czekam na 1
+Wątek 1 startuje 
+Wątek 1 : nie ma wierzchołków do wzięcia
+Wątek 1 : skonczylem
+Wątek 1 kończy 
+Wątek 2 kończy 
+Wątek 3 kończy 
+Wątek 4 kończy 
+GŁÓWNY WĄTEK : zadania kończą działanie       ##########################
+Następnym razem trzeba będzie przerobić 0 wierzchołków
+Ostatecznie wynik jest następujący : 
+1 adoruje : 
+--- 4 z wagą 1
+4 adoruje : 
+9 adoruje : 
+--- 14 z wagą 5
+14 adoruje : 
+--- 9 z wagą 5
+WYNIK = 5

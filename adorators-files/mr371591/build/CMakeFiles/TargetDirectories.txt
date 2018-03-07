@@ -1,0 +1,8 @@
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/install/strip.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/install/local.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/install.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/list_install_components.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/adorate.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/edit_cache.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/adorate_dziala.dir
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/build/CMakeFiles/rebuild_cache.dir

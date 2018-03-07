@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/adorate-42.cpp
+blimit.hpp
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/blimit.hpp
+iostream
+-
+fstream
+-
+sstream
+-
+map
+-
+list
+-
+set
+-
+future
+-
+
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/blimit.cpp
+iostream
+-
+blimit.hpp
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/blimit.hpp
+
+/home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie/ab123456/blimit.hpp
+

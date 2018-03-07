@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG -O3  -rdynamic CMakeFiles/adoratedziala.dir/adorate-42-dziala1.cpp.o CMakeFiles/adoratedziala.dir/blimit.cpp.o  -o adoratedziala -lpthread 

@@ -1,0 +1,48 @@
+Sv_last(v):
+	- odczyt who_adorate_me(v).size() i who_adorate_me(v).begin()
+
+W_v_Sv_last(v):
+	- odczyt who_adorate_me(v).size() i who_adorate_me(v).begin()
+	- odczyt graph[v][who_adorate_me(v).begin()]
+
+argmax(v1) :
+	- who_i_dont_adorate(v1).begin()
+	- W_v_Sv_last(x nalezace do who_i_dont_adorate(v1))
+
+make_suitor(v1, v2) :
+	- y = Sv_last(v2)
+	- who_adorate_me(v2).insert(v1)
+	- who_i_adorate(v1).insert(v2)
+	- who_i_dont_adorate(v1).erase(v2)
+	- if(y != NULL) {
+		- who_adorate_me(v2).erase(y)
+		- who_i_adorate(y).erase(v2)
+		- who_i_dont_adorate(y).insert(v2)
+		- db_temp[y
+		- z = argmax(y)
+		- if(z != NULL) {
+			- return make_suitor(y, z)
+		}
+	}
+	- return y
+
+task :
+	- i = 1
+	- while(i + db[v1] <= bvalue(v1) && who_i_dont_adorate(v1) not empty) {
+		- best = argmax(v1)
+		- v1.lock()
+		- if(best != NULL) {
+			- best.lock()
+			- whom_i_annuled = make_suitor(v1, best)
+			- if(whom_i_annuled != NULL) {
+				- Q'.insert(whom_i_annuled)
+			}
+			- best.unlock()
+		}
+		- else who_i_dont_adorate(v1).clear()
+		- v1.unlock()
+
+	}
+
+v is unsaturated if T(v) < b(v)
+b is saturated if T(v) == b(v)

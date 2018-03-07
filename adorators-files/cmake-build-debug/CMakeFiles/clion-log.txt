@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/skiline11/Pulpit/Studia/prog_wsp/2017-18/duze2/Zad2/pobrane-pliki/adorators-files-MojeRozwiazanie
